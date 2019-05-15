@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Items - Javascript CrashCourse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>ItemsMenu</h1>
+            <div id="search">
+                <input type="text" id="filter" placeholder="search items">
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="main">
+            <h1>Add Items</h1>
+            <div class="additems">
+                <form id="form">
+                    <input type="text" id="additem" placeholder="Enter Item to add" required>
+                    <input type="submit" value="Add">
+                </form>
+            </div>
+            <div id="itemslist">
+                <ul id="item-list">
+                    <li class="list-item">Item1 <button class="delete">X</button> </li>
+                    <li class="list-item">Item2 <button class="delete">X</button></li>
+                    <li class="list-item">Item3 <button class="delete">X</button></li>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

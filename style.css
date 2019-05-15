@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    /* background-color: #dadada; */
+    /* padding: 5px; */
+    min-width: 10%;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(34, 88, 34);
+    padding: 5px;
+    text-align: justify;
+    color: white;
+}
+
+.header h1{
+    background: rgb(34, 88, 34);
+    float: left;
+    padding: 0.2rem;
+    min-width: 5%;
+    margin:  0rem;
+}
+
+.header #search{
+    display: flex;
+    /* background: #000; */
+    min-width: 10%;
+    padding: 5px;
+    margin: auto ;
+}
+
+.header #search input{
+    min-width: 5%;
+    margin-right: 1%;
+}
+
+.header #search button{
+    margin-right: 0%;
+}
+
+
+
+section{
+    width: 100%;
+    margin: 0%;
+    /* background: #000; */
+}
+
+section #main{
+    margin:0% 0%;
+    padding:5%;
+    background: rgb(145, 158, 145);
+    color: white;
+    min-width: 10%;
+}
+
+section #main h1{
+    text-align: center;
+    color: rgb(5, 68, 47);
+}
+
+section #main .additems{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+ section #main input[type="text"] {
+    /* margin: 4% 0% 1% 30%; */
+    height: 1.5rem;
+}
+
+section #main input[type="submit"] {
+    height: 1.5rem;
+    color: darkgreen;
+    font-weight: 600;
+}
+
+section #main #itemslist{ 
+    margin: 0%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+
+ } 
+section #main #itemslist ul{
+    list-style: none;
+    width: 60%;
+    margin: 0%;
+    padding: 2%;
+}
+section #main #itemslist ul li{
+    width: 100%;
+    background: rgb(99, 49, 49);
+    text-align: left;
+    padding: 2%;
+    font-size: 1.2rem;
+    border-bottom-style: solid;
+}
+section #main #itemslist ul .delete{
+    float:right;
+    background: rgb(209, 11, 11);
+}
